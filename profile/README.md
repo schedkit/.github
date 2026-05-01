@@ -1,5 +1,3 @@
-# schedkit
-
 > OCI-packaged `sched_ext` schedulers, plus the tools to run them anywhere — from your laptop to a Kubernetes cluster.
 
 ## The pitch
