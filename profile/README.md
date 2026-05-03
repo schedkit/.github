@@ -8,19 +8,19 @@ We treat schedulers like any other piece of software you'd ship today: they live
 
 ## Projects
 
-### [schedctl](https://github.com/schedkit/schedctl) — the host-side CLI
+### [schedctl](https://github.com/schedkit/schedctl) - the host-side CLI
 
 Pulls an OCI-packaged `sched_ext` scheduler, attaches it to the running kernel, and manages its lifecycle. Works with both Podman and containerd as the backing runtime.
 
 Available on openSUSE Tumbleweed (`zypper in schedctl`) and the AUR (`paru -S schedctl`).
 
-### [sked](https://github.com/schedkit/sked) — the Kubernetes operator
+### [sked](https://github.com/schedkit/sked) - the Kubernetes operator
 
 Distributes schedulers across cluster nodes via a CRD-based API, with node selectors, tolerations, and continuous reconciliation. If schedctl answers *"which scheduler should run on this machine?"*, sked answers *"which scheduler should run on which node pool, across the whole fleet?"*.
 
 ## Why OCI?
 
-Because reinventing supply-chain primitives for kernel-loadable code in 2026 would be… a choice. OCI gives us content addressing, mirrors, mature tooling, and signature verification via sigstore/cosign — all things every ops team already knows how to operate. Schedulers are software; software lives in registries.
+Because reinventing supply-chain primitives for kernel-loadable code in 2026 would be… a choice. OCI gives us content addressing, mirrors, mature tooling, and signature verification via sigstore/cosign. All things every ops team already knows how to operate. Schedulers are software; software lives in registries.
 
 ## Status
 
