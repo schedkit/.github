@@ -1,8 +1,8 @@
-> OCI-packaged `sched_ext` schedulers, plus the tools to run them anywhere — from your laptop to a Kubernetes cluster.
+> OCI-packaged `sched_ext` schedulers, plus the tools to run them anywhere - from your laptop to a Kubernetes cluster.
 
 ## The pitch
 
-Recent Linux kernels ship `sched_ext`, a framework that lets you write CPU schedulers in eBPF and swap them in at runtime. The kernel side is solved. **Distribution, lifecycle, and fleet management are not** — and that's the gap schedkit fills.
+Recent Linux kernels ship `sched_ext`, a framework that lets you write CPU schedulers in eBPF and swap them in at runtime. The kernel side is solved. **Distribution, lifecycle, and fleet management are not**, and that's the gap schedkit fills.
 
 We treat schedulers like any other piece of software you'd ship today: they live in OCI registries, they're signed, they have versions, and they're orchestrated with tooling your platform team already understands.
 
@@ -28,7 +28,7 @@ Early but real. We run schedkit ourselves and we welcome early adopters who are 
 
 ## Getting involved
 
-Each project has its own issue tracker and discussions. For broader design questions about the schedkit ecosystem as a whole — naming, scope, cross-project APIs — this repository's *Discussions* tab is the right place.
+Each project has its own issue tracker and discussions. For broader design questions about the schedkit ecosystem as a whole (naming, scope, cross-project APIs) this repository's *Discussions* tab is the right place.
 
 ## License
 
