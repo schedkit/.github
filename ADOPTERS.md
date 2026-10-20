@@ -19,5 +19,5 @@ will add you.
 
 | Organization | Components | Usage | Since | Contact (optional) |
 | ------------ | ---------- | ----- | ----- | ------------------ |
-| Gthulhu | plumbing | Uses the schedkit distribution pipeline to distribute their scheduler | 2025 | @ianchen0119 |
+| [Gthulhu](https://github.com/Gthulhu) | plumbing | Uses the schedkit distribution pipeline to distribute their scheduler | 2025 | @ianchen0119 |
 
